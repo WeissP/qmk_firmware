@@ -42,4 +42,6 @@
 
 #define COMBO_COUNT 1
 
+/* #define LEADER_PER_KEY_TIMING  */
+#define LEADER_TIMEOUT 300
 

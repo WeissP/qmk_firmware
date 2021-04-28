@@ -25,6 +25,7 @@ BOOTLOADER = atmel-dfu
 # debounce_type = sym_eager_pk
 # UNICODEMAP_ENABLE = yes
 
-COMBO_ENABLE = yes
+# COMBO_ENABLE = yes
 
 TAP_DANCE_ENABLE = yes
+LEADER_ENABLE = yes
