@@ -1,10 +1,10 @@
 * Layout
 
-https://user-images.githubusercontent.com/38898031/116547077-b65c8200-a8f2-11eb-9165-7617d45c42e6.png
+[[https://user-images.githubusercontent.com/38898031/116547077-b65c8200-a8f2-11eb-9165-7617d45c42e6.png]]
 
 ** BASIC_LAYER 0
 
-(tbl2qmk-convert)
+Left:
 | KC_F5                  | DE_GRV   | KC_F15  | KC_F16 | KC_F11  | KC_F12 |
 | C(KC_TAB)              | DE_EQL   | DE_EXLM | DE_AT  | DE_SLSH | KC_F14 |
 | S(C(KC_TAB))           | KC_Q     | KC_W    | KC_E   | KC_R    | KC_T   |
@@ -12,6 +12,7 @@ https://user-images.githubusercontent.com/38898031/116547077-b65c8200-a8f2-11eb-
 | MT(MOD_LGUI, KC_PASTE) | DE_Z     | KC_X    | KC_C   | KC_V    | KC_B   |
 | KC_LEFT                | KC_RIGHT |         |        |         |        |
 
+Right:
 | G(KC_1) | G(KC_2) | G(KC_3) | G(KC_4) | DE_DLR    | KC_F6              |
 | KC_F17  | DE_QUES | DE_MINS | DE_AMPR | KC_BSPC   | TD(TD_LEFT_BRACE)  |
 | DE_Y    | KC_U    | KC_I    | KC_O    | KC_P      | TD(TD_RIGHT_BRACE) |
@@ -19,16 +20,20 @@ https://user-images.githubusercontent.com/38898031/116547077-b65c8200-a8f2-11eb-
 | KC_N    | KC_M    | DE_COMM | DE_DOT  | A(KC_SPC) | KC_PGDOWN          |
 | KC_DOWN | KC_UP   |         |         |           |                    |
 
+Left Thumbs:
 | LT(_SHIFTED_LAYER,KC_END) | LT(_NUMBER_LAYER,KC_ENT) |
 | KC_LEAD                   | KC_LCTRL                 |
 | KC_LALT                   | KC_LGUI                  |
 
+Right Thumbs:
 | KC_SPC | LT(1,KC_ESC) |
 | KC_END | KC_BSPC      |
 | KC_GRV | KC_BSPC      |
 
+
 ** CUSTOM_LAYER 1
-(tbl2qmk-convert)
+
+Left:
 | _______    | _______     | _______    | _______    | _______    | _______    |
 | _______    | DE_UNDS     | _______    | _______    | DE_BSLS    | C(G(KC_A)) |
 | _______    | C(KC_Q)     | LCTL(KC_W) | _______    | LCTL(KC_R) | LCTL(KC_T) |
@@ -36,6 +41,7 @@ https://user-images.githubusercontent.com/38898031/116547077-b65c8200-a8f2-11eb-
 | KC_LGUI    | LCTL(KC_Z)  | LCTL(KC_X) | LCTL(KC_C) | LCTL(KC_V) | LCTL(KC_B) |
 | A(KC_LEFT) | A(KC_RIGHT) |            |            |            |            |
 
+Right:
 | _______    | _______     | _______    | _______    | _______    | _______ |
 | LGUI(KC_9) | LGUI(KC_8)  | LGUI(KC_7) | LGUI(KC_6) | LGUI(KC_5) | _______ |
 | _______    | DE_UDIA     | HYPR(KC_I) | DE_ODIA    | G(S(KC_A)) | _______ |
@@ -43,17 +49,19 @@ https://user-images.githubusercontent.com/38898031/116547077-b65c8200-a8f2-11eb-
 | _______    | _______     | DE_LABK    | DE_RABK    | _______    | _______ |
 | G(KC_LEFT) | G(KC_RIGHT) |            |            |            |         |
 
+Left Thumbs:
 | KC_LSFT | LCTL(KC_G) |
 | _______ | _______    |
 | _______ | _______    |
 
+Right Thumbs:
 | _______ | _______ |
 | _______ | _______ |
 | _______ | _______ |
 
 ** NUMBER_LAYER 2
 
-(tbl2qmk-convert)
+Left:
 | _______ | _______ | _______   | _______ | _______ | _______ |
 | _______ | _______ | G(KC_ESC) | _______ | _______ | _______ |
 | _______ | _______ | _______   | _______ | _______ | _______ |
@@ -61,6 +69,7 @@ https://user-images.githubusercontent.com/38898031/116547077-b65c8200-a8f2-11eb-
 | _______ | _______ | _______   | _______ | _______ | _______ |
 | _______ | _______ |           |         |         |         |
 
+Right:
 | _______ | _______ | _______ | _______ | DE_HASH  | _______ |
 | _______ | DE_SLSH | DE_TILD | DE_ASTR | KC_BSPC  | _______ |
 | _______ | KC_7    | KC_8    | KC_9    | _______ | _______ |
@@ -68,10 +77,12 @@ https://user-images.githubusercontent.com/38898031/116547077-b65c8200-a8f2-11eb-
 | _______ | KC_1    | KC_2    | KC_3    | _______  | _______ |
 | KC_0    | KC_DOT  |         |         |          |         |
 
+Left Thumbs:
 | MO(_SHIFTED_NUMBER_LAYER) | _______ |
 | _______                   | _______ |
 | _______                   | _______ |
 
+Right Thumbs:
 | _______ | _______ |
 | _______ | _______ |
 | _______ | _______ |
@@ -80,7 +91,7 @@ https://user-images.githubusercontent.com/38898031/116547077-b65c8200-a8f2-11eb-
 
 ** SHIFTED_LAYER 3
 
-(tbl2qmk-convert)
+Left:
 | _______    | _______     | _______ | _______ | _______ | _______ |
 | _______    | DE_QUOT     | DE_EURO | DE_DEG  | _______ | _______ |
 | S(KC_TAB)  | S(KC_Q)     | S(KC_W) | S(KC_E) | S(KC_R) | S(KC_T) |
@@ -88,6 +99,7 @@ https://user-images.githubusercontent.com/38898031/116547077-b65c8200-a8f2-11eb-
 | S(KC_LGUI) | S(DE_Z)     | S(KC_X) | S(KC_C) | S(KC_V) | S(KC_B) |
 | S(KC_LEFT) | S(KC_RIGHT) |         |         |         |         |
 
+Right:
 | _______    | _______  | _______ | _______ | DE_CIRC   | _______      |
 | _______    | DE_PERC  | DE_PLUS | DE_PIPE | KC_BSPC   | DE_LBRC      |
 | S(DE_Y)    | S(KC_U)  | S(KC_I) | S(KC_O) | S(KC_P)   | DE_RBRC     |
@@ -95,17 +107,19 @@ https://user-images.githubusercontent.com/38898031/116547077-b65c8200-a8f2-11eb-
 | S(KC_N)    | S(KC_M)  | DE_SCLN | DE_COLN | _______   | S(KC_PGDOWN) |
 | S(KC_DOWN) | S(KC_UP) |         |         |           |              |
 
+Left Thumbs:
 | MT(MOD_LSFT,KC_END) | MO(_SHIFTED_NUMBER_LAYER) |
 | _______             | _______                   |
 | _______             | _______                   |
 
+Right Thumbs:
 | S(KC_SPC) | KC_LSFT |
 | _______   | _______ |
 | _______   | _______ |
 
 ** SHIFTED_NUMBER_LAYER 4
 
-(tbl2qmk-convert)
+Left:
 | _______ | _______  | _______ | _______ | _______ | _______ |
 | _______ | _______ | _______ | _______ | _______ | _______ |
 | _______ | _______  | _______ | _______ | _______ | _______ |
@@ -113,6 +127,7 @@ https://user-images.githubusercontent.com/38898031/116547077-b65c8200-a8f2-11eb-
 | _______ | _______  | _______ | _______ | _______ | _______ |
 | _______ | _______  |         |         |         |         |
 
+Right:
 | _______ | _______ | _______ | _______ | _______ | _______ |
 | _______ | _______ | _______ | _______ | _______ | _______ |
 | _______ | KC_F7   | KC_F8   | KC_F9   | _______ | _______ |
@@ -120,10 +135,12 @@ https://user-images.githubusercontent.com/38898031/116547077-b65c8200-a8f2-11eb-
 | _______ | KC_F1   | KC_F2   | KC_F3   | _______ | _______ |
 | KC_F10  | _______ |         |         |         |         |
 
+Left Thumbs:
 | _______ | _______ |
 | _______ | _______ |
 | _______ | _______ |
 
+Right Thumbs:
 | _______ | _______ |
 | _______ | _______ |
 | _______ | _______ |
