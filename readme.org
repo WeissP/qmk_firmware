@@ -1,0 +1,131 @@
+* Layout
+
+https://user-images.githubusercontent.com/38898031/116547077-b65c8200-a8f2-11eb-9165-7617d45c42e6.png
+
+** BASIC_LAYER 0
+
+(tbl2qmk-convert)
+| KC_F5                  | DE_GRV   | KC_F15  | KC_F16 | KC_F11  | KC_F12 |
+| C(KC_TAB)              | DE_EQL   | DE_EXLM | DE_AT  | DE_SLSH | KC_F14 |
+| S(C(KC_TAB))           | KC_Q     | KC_W    | KC_E   | KC_R    | KC_T   |
+| MT(MOD_LCTL, KC_COPY)  | KC_A     | KC_S    | KC_D   | KC_F    | KC_G   |
+| MT(MOD_LGUI, KC_PASTE) | DE_Z     | KC_X    | KC_C   | KC_V    | KC_B   |
+| KC_LEFT                | KC_RIGHT |         |        |         |        |
+
+| G(KC_1) | G(KC_2) | G(KC_3) | G(KC_4) | DE_DLR    | KC_F6              |
+| KC_F17  | DE_QUES | DE_MINS | DE_AMPR | KC_BSPC   | TD(TD_LEFT_BRACE)  |
+| DE_Y    | KC_U    | KC_I    | KC_O    | KC_P      | TD(TD_RIGHT_BRACE) |
+| KC_H    | KC_J    | KC_K    | KC_L    | KC_TAB    | KC_PGUP            |
+| KC_N    | KC_M    | DE_COMM | DE_DOT  | A(KC_SPC) | KC_PGDOWN          |
+| KC_DOWN | KC_UP   |         |         |           |                    |
+
+| LT(_SHIFTED_LAYER,KC_END) | LT(_NUMBER_LAYER,KC_ENT) |
+| KC_LEAD                   | KC_LCTRL                 |
+| KC_LALT                   | KC_LGUI                  |
+
+| KC_SPC | LT(1,KC_ESC) |
+| KC_END | KC_BSPC      |
+| KC_GRV | KC_BSPC      |
+
+** CUSTOM_LAYER 1
+(tbl2qmk-convert)
+| _______    | _______     | _______    | _______    | _______    | _______    |
+| _______    | DE_UNDS     | _______    | _______    | DE_BSLS    | C(G(KC_A)) |
+| _______    | C(KC_Q)     | LCTL(KC_W) | _______    | LCTL(KC_R) | LCTL(KC_T) |
+| KC_LCTL    | DE_ADIA     | DE_SS      | _______    | LCTL(KC_F) | _______    |
+| KC_LGUI    | LCTL(KC_Z)  | LCTL(KC_X) | LCTL(KC_C) | LCTL(KC_V) | LCTL(KC_B) |
+| A(KC_LEFT) | A(KC_RIGHT) |            |            |            |            |
+
+| _______    | _______     | _______    | _______    | _______    | _______ |
+| LGUI(KC_9) | LGUI(KC_8)  | LGUI(KC_7) | LGUI(KC_6) | LGUI(KC_5) | _______ |
+| _______    | DE_UDIA     | HYPR(KC_I) | DE_ODIA    | G(S(KC_A)) | _______ |
+| LCTL(KC_H) | HYPR(KC_J)  | HYPR(KC_K) | HYPR(KC_L) | KC_TAB     | _______ |
+| _______    | _______     | DE_LABK    | DE_RABK    | _______    | _______ |
+| G(KC_LEFT) | G(KC_RIGHT) |            |            |            |         |
+
+| KC_LSFT | LCTL(KC_G) |
+| _______ | _______    |
+| _______ | _______    |
+
+| _______ | _______ |
+| _______ | _______ |
+| _______ | _______ |
+
+** NUMBER_LAYER 2
+
+(tbl2qmk-convert)
+| _______ | _______ | _______   | _______ | _______ | _______ |
+| _______ | _______ | G(KC_ESC) | _______ | _______ | _______ |
+| _______ | _______ | _______   | _______ | _______ | _______ |
+| _______ | _______ | _______   | _______ | _______ | _______ |
+| _______ | _______ | _______   | _______ | _______ | _______ |
+| _______ | _______ |           |         |         |         |
+
+| _______ | _______ | _______ | _______ | DE_HASH  | _______ |
+| _______ | DE_SLSH | DE_TILD | DE_ASTR | KC_BSPC  | _______ |
+| _______ | KC_7    | KC_8    | KC_9    | _______ | _______ |
+| _______ | KC_4    | KC_5    | KC_6    | _______  | _______ |
+| _______ | KC_1    | KC_2    | KC_3    | _______  | _______ |
+| KC_0    | KC_DOT  |         |         |          |         |
+
+| MO(_SHIFTED_NUMBER_LAYER) | _______ |
+| _______                   | _______ |
+| _______                   | _______ |
+
+| _______ | _______ |
+| _______ | _______ |
+| _______ | _______ |
+
+
+
+** SHIFTED_LAYER 3
+
+(tbl2qmk-convert)
+| _______    | _______     | _______ | _______ | _______ | _______ |
+| _______    | DE_QUOT     | DE_EURO | DE_DEG  | _______ | _______ |
+| S(KC_TAB)  | S(KC_Q)     | S(KC_W) | S(KC_E) | S(KC_R) | S(KC_T) |
+| S(KC_LCTL) | S(KC_A)     | S(KC_S) | S(KC_D) | S(KC_F) | S(KC_G) |
+| S(KC_LGUI) | S(DE_Z)     | S(KC_X) | S(KC_C) | S(KC_V) | S(KC_B) |
+| S(KC_LEFT) | S(KC_RIGHT) |         |         |         |         |
+
+| _______    | _______  | _______ | _______ | DE_CIRC   | _______      |
+| _______    | DE_PERC  | DE_PLUS | DE_PIPE | KC_BSPC   | DE_LBRC      |
+| S(DE_Y)    | S(KC_U)  | S(KC_I) | S(KC_O) | S(KC_P)   | DE_RBRC     |
+| S(KC_H)    | S(KC_J)  | S(KC_K) | S(KC_L) | S(KC_TAB) | S(KC_PGDOWN) |
+| S(KC_N)    | S(KC_M)  | DE_SCLN | DE_COLN | _______   | S(KC_PGDOWN) |
+| S(KC_DOWN) | S(KC_UP) |         |         |           |              |
+
+| MT(MOD_LSFT,KC_END) | MO(_SHIFTED_NUMBER_LAYER) |
+| _______             | _______                   |
+| _______             | _______                   |
+
+| S(KC_SPC) | KC_LSFT |
+| _______   | _______ |
+| _______   | _______ |
+
+** SHIFTED_NUMBER_LAYER 4
+
+(tbl2qmk-convert)
+| _______ | _______  | _______ | _______ | _______ | _______ |
+| _______ | _______ | _______ | _______ | _______ | _______ |
+| _______ | _______  | _______ | _______ | _______ | _______ |
+| _______ | _______  | _______ | _______ | _______ | _______ |
+| _______ | _______  | _______ | _______ | _______ | _______ |
+| _______ | _______  |         |         |         |         |
+
+| _______ | _______ | _______ | _______ | _______ | _______ |
+| _______ | _______ | _______ | _______ | _______ | _______ |
+| _______ | KC_F7   | KC_F8   | KC_F9   | _______ | _______ |
+| _______ | KC_F4   | KC_F5   | KC_F6   | _______ | _______ |
+| _______ | KC_F1   | KC_F2   | KC_F3   | _______ | _______ |
+| KC_F10  | _______ |         |         |         |         |
+
+| _______ | _______ |
+| _______ | _______ |
+| _______ | _______ |
+
+| _______ | _______ |
+| _______ | _______ |
+| _______ | _______ |
+
+
