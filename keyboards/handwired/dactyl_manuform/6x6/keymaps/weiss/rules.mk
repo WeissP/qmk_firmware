@@ -28,4 +28,4 @@ BOOTLOADER = atmel-dfu
 # COMBO_ENABLE = yes
 
 TAP_DANCE_ENABLE = yes
-LEADER_ENABLE = yes
+LEADER_ENABLE = no

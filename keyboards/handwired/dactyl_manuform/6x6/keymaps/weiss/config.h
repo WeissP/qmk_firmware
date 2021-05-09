@@ -39,9 +39,10 @@
 #define _NUMBER_LAYER 2
 #define _SHIFTED_LAYER 3
 #define _SHIFTED_NUMBER_LAYER 4
+#define _SHIFTED_CUSTOM_LAYER 5
 
 #define COMBO_COUNT 1
 
 /* #define LEADER_PER_KEY_TIMING  */
-#define LEADER_TIMEOUT 300
+/* #define LEADER_TIMEOUT 300 */
 
